@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "incremental": true,
+    "paths": {
+      "@auth": ["auth"],
+      "@common": ["common"],
+      "@config": ["config"],
+      "@environments": ["environments"],
+      "@models": ["models"],
+      "@shared": ["shared"],
+      "@utils": ["utils"],
+      "@validations": ["validations"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
